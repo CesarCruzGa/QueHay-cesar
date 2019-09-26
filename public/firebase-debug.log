@@ -1,0 +1,92 @@
+[debug] [2019-09-12T17:45:12.246Z] ----------------------------------------------------------------------
+[debug] [2019-09-12T17:45:12.254Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Cruz-\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-09-12T17:45:12.255Z] CLI Version:   7.3.1
+[debug] [2019-09-12T17:45:12.255Z] Platform:      win32
+[debug] [2019-09-12T17:45:12.255Z] Node Version:  v10.16.3
+[debug] [2019-09-12T17:45:12.257Z] Time:          Thu Sep 12 2019 12:45:12 GMT-0500 (GMT-05:00)
+[debug] [2019-09-12T17:45:12.257Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-12T17:45:12.365Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-12T17:45:12.366Z] > authorizing via signed-in user
+[debug] [2019-09-12T17:45:12.366Z] [iam] checking project panelquehay-cc for permissions ["firebase.projects.get"]
+[debug] [2019-09-12T17:45:12.369Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-09-12T17:45:12.370Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-09-12T17:45:12.814Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-12T17:45:12.863Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/panelquehay-cc:testIamPermissions  
+
+[debug] [2019-09-12T17:45:13.603Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-12T17:45:13.604Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/panelquehay-cc  
+ 
+[debug] [2019-09-12T17:45:14.273Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Cruz-\OneDrive\Documentos\VH\panelquehay-cc'...
+[info] 
+[debug] [2019-09-12T17:45:14.277Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/panelquehay-cc/webApps/-/config  
+ 
+[debug] [2019-09-12T17:45:14.682Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-09-13T21:53:57.983Z] ----------------------------------------------------------------------
+[debug] [2019-09-13T21:53:57.987Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Cruz-\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-09-13T21:53:57.988Z] CLI Version:   7.3.1
+[debug] [2019-09-13T21:53:57.988Z] Platform:      win32
+[debug] [2019-09-13T21:53:57.988Z] Node Version:  v10.16.3
+[debug] [2019-09-13T21:53:57.990Z] Time:          Fri Sep 13 2019 16:53:57 GMT-0500 (GMT-05:00)
+[debug] [2019-09-13T21:53:57.990Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-13T21:53:58.046Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-13T21:53:58.046Z] > authorizing via signed-in user
+[debug] [2019-09-13T21:53:58.046Z] [iam] checking project panelquehay-cc for permissions ["firebase.projects.get"]
+[debug] [2019-09-13T21:53:58.048Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-09-13T21:53:58.048Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-09-13T21:53:58.569Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-13T21:53:58.618Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/panelquehay-cc:testIamPermissions  
+
+[debug] [2019-09-13T21:53:59.646Z] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:111:27)
+[error] 
+[error] Error: Server Error. read ECONNRESET
+[debug] [2019-09-13T21:55:09.680Z] ----------------------------------------------------------------------
+[debug] [2019-09-13T21:55:09.682Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Cruz-\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-09-13T21:55:09.682Z] CLI Version:   7.3.1
+[debug] [2019-09-13T21:55:09.682Z] Platform:      win32
+[debug] [2019-09-13T21:55:09.682Z] Node Version:  v10.16.3
+[debug] [2019-09-13T21:55:09.683Z] Time:          Fri Sep 13 2019 16:55:09 GMT-0500 (GMT-05:00)
+[debug] [2019-09-13T21:55:09.683Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-13T21:55:09.692Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-13T21:55:09.693Z] > authorizing via signed-in user
+[debug] [2019-09-13T21:55:09.693Z] [iam] checking project panelquehay-cc for permissions ["firebase.projects.get"]
+[debug] [2019-09-13T21:55:09.695Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/panelquehay-cc:testIamPermissions  
+
+[debug] [2019-09-13T21:55:38.040Z] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:111:27)
+[error] 
+[error] Error: Server Error. read ECONNRESET
+[debug] [2019-09-13T21:57:23.023Z] ----------------------------------------------------------------------
+[debug] [2019-09-13T21:57:23.026Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Cruz-\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-09-13T21:57:23.026Z] CLI Version:   7.3.1
+[debug] [2019-09-13T21:57:23.026Z] Platform:      win32
+[debug] [2019-09-13T21:57:23.026Z] Node Version:  v10.16.3
+[debug] [2019-09-13T21:57:23.027Z] Time:          Fri Sep 13 2019 16:57:23 GMT-0500 (GMT-05:00)
+[debug] [2019-09-13T21:57:23.027Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-13T21:57:23.035Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-13T21:57:23.036Z] > authorizing via signed-in user
+[debug] [2019-09-13T21:57:23.036Z] [iam] checking project panelquehay-cc for permissions ["firebase.projects.get"]
+[debug] [2019-09-13T21:57:23.038Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/panelquehay-cc:testIamPermissions  
+
+[debug] [2019-09-13T21:57:23.581Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-13T21:57:23.583Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/panelquehay-cc  
+ 
+[debug] [2019-09-13T21:57:24.287Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Cruz-\OneDrive\Documentos\VH\panelquehay-cc'...
+[info] 
+[debug] [2019-09-13T21:57:24.290Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/panelquehay-cc/webApps/-/config  
+ 
+[debug] [2019-09-13T21:57:24.788Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
